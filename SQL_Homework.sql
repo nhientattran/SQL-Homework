@@ -63,4 +63,4 @@ SELECT rating, COUNT(rating)
 FROM film
 GROUP BY rating
 ORDER BY COUNT(rating) DESC;
--- Answer: 5 rating, PG-13 has the most (223 movies)
+-- Answer: 5 rating, PG-13 has the most (223 movies).
